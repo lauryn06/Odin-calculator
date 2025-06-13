@@ -10,29 +10,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <DIV><h1>LALA'S CALCULATOR</h1></DIV>
+    
     <div class="main">
-        <div class="upper"> </div>
+        <div class="clear">0</div>
         <div class="box">
             
-    
-
-
-            <button class="boxes" id="op"><i class="fas fa-plus"></i></button>
-            <button class="boxes" id="op"><i class="fas fa-minus"></i></button>
-            <button class="boxes" id="op"><i class="fas fa-xmark"></i></button>
+            <button class="boxes" id="op"><i class="fas fa-plus" onclick="add()"></i></button>
+            <button class="boxes" id="op"><i class="fas fa-minus" onclick="subtract()"></i></button>
+            <button class="boxes" id="op"><i class="fas fa-xmark" onclick="multiply()"></i></button>
             <button class="boxes" id="del"><i class="fas fa-backspace"></i></button>
-            <button class="boxes">9</button>
-            <button class="boxes">8</button>
-            <button class="boxes">7</button>
-   <button class="boxes" id="op">%</button>
-            <button class="boxes">6</button>
-            <button class="boxes">5</button>
-            <button class="boxes">4</button>
-            <button class="boxes" id="op"><i class="fas fa-divide"></i> </button>
-            <button class="boxes">3</button>
-            <button class="boxes">2</button>
-            <button class="boxes">1</button>
+            <button class="boxes digit" id="num">9</button>
+            <button class="boxes digit" id="num">8</button>
+            <button class="boxes digit" id="num">7</button>
+            <button class="boxes" id="op">%</button>
+            <button class="boxes digit" id="num">6</button>
+            <button class="boxes digit" id="num">5</button>
+            <button class="boxes digit" id="num">4</button>
+            <button class="boxes" id="op"><i class="fas fa-divide" onclick="divide()"></i> </button>
+            <button class="boxes digit" id="num">3</button>
+            <button class="boxes digit" id="num">2</button>
+            <button class="boxes digit" id="num">1</button>
          
             <button class="boxes" id="op">=</button>
             <button class="boxes" id="op">.</button>
@@ -41,5 +39,6 @@
             <button class="boxes" id="op"><i class="fas fa-plus-minus"></i></button>
        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
