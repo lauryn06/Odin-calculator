@@ -85,7 +85,7 @@ multiply=(a,b)=>{
 }
 divide=(a,b)=>{
     if(b==0){
-        return "error";
+        return "Enter a number greater iwe!!";
     }else{
  return a/b;
     }
