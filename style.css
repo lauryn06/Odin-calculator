@@ -55,15 +55,15 @@
    font-weight: 700;
    /* border: 1px; */
 }
-#del{
+.del{
     background-color: palevioletred;
 }
-#op{
+.op{
     background-color: rgba(221, 160, 221, 0.377);
         
 }
 
-#op:hover{
+.op:hover{
 background-color: rgba(221, 160, 221, 0.795);
 }
 .boxes:hover{
